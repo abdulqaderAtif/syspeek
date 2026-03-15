@@ -85,7 +85,7 @@ python main.py --all
 
 ## Project Structure
 
-```
+```text
 syspeek
 │
 ├── main.py
