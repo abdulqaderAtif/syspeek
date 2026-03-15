@@ -112,3 +112,7 @@ syspeek
 - Colored CLI output
 
 - Packaging as an installable CLI tool
+
+## License
+
+This project is licensed under the MIT License.
