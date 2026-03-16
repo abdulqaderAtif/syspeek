@@ -1,9 +1,9 @@
 import argparse
-from monitor.cpu import get_cpu_usage
-from monitor.memory import get_memory_info
-from monitor.disk import get_disk_info
-from monitor.system import get_system_info
-from monitor.battery import get_battery_info
+from syspeek.monitor.cpu import get_cpu_usage
+from syspeek.monitor.memory import get_memory_info
+from syspeek.monitor.disk import get_disk_info
+from syspeek.monitor.system import get_system_info
+from syspeek.monitor.battery import get_battery_info
 
 
 def main():

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syspeek"
+version = "0.1.0"
+description = "A simple CLI system monitor tool"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "psutil"
+]
+
+[project.scripts]
+syspeek = "syspeek.main:main"

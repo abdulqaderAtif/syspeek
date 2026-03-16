@@ -1,3 +1,14 @@
+# virtual environments
 .venv/
-monitor/__pycache__/
+
+# python cache
+__pycache__/
+*.pyc
+
+# build artifacts
+build/
+dist/
+*.egg-info/
+
+# my files
 TODO.txt
