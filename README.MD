@@ -54,6 +54,34 @@ pip install .
 
 ---
 
+## Using SysPeek on Every Terminal Session
+
+Since syspeek is installed inside a virtual environment, you need to activate it each time you open a new terminal:
+
+```bash
+source /path/to/syspeek/.venv/bin/activate
+```
+
+Then you can run `syspeek` normally.
+
+**Alternatively**, install it globally so it's always available without activation:
+
+```bash
+pip install --user .
+```
+
+After that, `syspeek` will work in any terminal session without any extra steps.
+
+---
+
+## Uninstallation
+
+```bash
+pip uninstall syspeek
+```
+
+---
+
 ## Usage
 
 ```bash
